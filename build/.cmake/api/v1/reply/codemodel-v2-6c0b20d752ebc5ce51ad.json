@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "S2_Prog_Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "main_TD1_S2_Prog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_TD1_S2_Prog-Debug-b8bfee93593a39542d5e.json",
+					"name" : "main_TD1_S2_Prog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_TD2_S2_Prog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_TD2_S2_Prog-Debug-36927e63404872d4d238.json",
+					"name" : "main_TD2_S2_Prog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_TD3_S2_Prog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_TD3_S2_Prog-Debug-c37fd7dcc94dc99bae97.json",
+					"name" : "main_TD3_S2_Prog",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Nabil/Desktop/S2_Prog/build",
+		"source" : "C:/Users/Nabil/Desktop/S2_Prog"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
