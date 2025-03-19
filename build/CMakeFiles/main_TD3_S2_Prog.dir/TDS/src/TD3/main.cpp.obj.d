@@ -156,4 +156,60 @@ CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/main.cpp.obj: \
  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_vector.h \
  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_bvector.h \
  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/vector.tcc \
- C:\Users\Nabil\Desktop\S2_Prog\TDS\src\TD3\tri.hpp
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/algorithm \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_algo.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/algorithmfwd.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_heap.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/uniform_int_dist.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_tempbuf.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ranges_algo.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ranges_algobase.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
+ C:\Users\Nabil\Desktop\S2_Prog\TDS\src\TD3\tri.hpp \
+ C:\Users\Nabil\Desktop\S2_Prog\TDS\src\TD3\ScopedTimer.hpp \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/chrono \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/chrono.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ratio \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/cstdint \
+ C:/Users/Nabil/Documents/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/limits \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ctime \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/parse_numbers.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/sstream \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/sstream.tcc \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/shared_ptr.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/shared_ptr_base.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/allocated_ptr.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/unique_ptr.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/aligned_buffer.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/concurrence.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/align.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/chrono_io.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/iomanip \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/locale \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/time_members.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/codecvt.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.tcc \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_conv.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/quoted_string.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/format \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/array \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/charconv \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/optional \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/enable_special_members.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/span \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/variant \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/unicode.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/unicode-data.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/functional \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/std_function.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/unordered_map \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/unordered_map.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/hashtable.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/hashtable_policy.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/node_handle.h \
+ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/erase_if.h

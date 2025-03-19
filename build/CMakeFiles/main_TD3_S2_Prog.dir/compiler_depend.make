@@ -771,9 +771,14 @@ CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD2/utils.cpp.obj: C:/Users/Nabil/Deskto
   C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD2/utils.hpp
 
 CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/main.cpp.obj: C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/main.cpp \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/algorithm \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/array \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/backward/binders.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bit \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/algorithmfwd.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/align.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/alloc_traits.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/allocated_ptr.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/allocator.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/basic_ios.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/basic_ios.tcc \
@@ -781,24 +786,34 @@ CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/main.cpp.obj: C:/Users/Nabil/Desktop
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/basic_string.tcc \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/char_traits.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/charconv.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/chrono.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/chrono_io.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/codecvt.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/concept_check.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/cpp_type_traits.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/cxxabi_forced.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/cxxabi_init_exception.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/enable_special_members.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/erase_if.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/exception.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/exception_defines.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/exception_ptr.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/functexcept.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/functional_hash.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/hash_bytes.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/hashtable.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/hashtable_policy.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/invoke.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ios_base.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/istream.tcc \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/iterator_concepts.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_classes.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_classes.tcc \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_conv.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_facets.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_facets.tcc \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.tcc \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/localefwd.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/max_size_type.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/memory_resource.h \
@@ -806,32 +821,49 @@ CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/main.cpp.obj: C:/Users/Nabil/Desktop
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/move.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/nested_exception.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/new_allocator.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/node_handle.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ostream.tcc \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ostream_insert.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/parse_numbers.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/postypes.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/predefined_ops.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ptr_traits.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/quoted_string.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/range_access.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ranges_algo.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ranges_algobase.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ranges_base.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ranges_cmp.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ranges_util.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/refwrap.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/shared_ptr.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/shared_ptr_base.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/sstream.tcc \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/std_abs.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/std_function.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_algo.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_algobase.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_bvector.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_construct.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_function.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_heap.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_iterator.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_pair.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_tempbuf.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_uninitialized.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_vector.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/streambuf.tcc \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/streambuf_iterator.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/string_view.tcc \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stringfwd.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/unicode-data.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/unicode.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/uniform_int_dist.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/unique_ptr.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/unordered_map.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/uses_allocator.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/uses_allocator_args.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/utility.h \
@@ -839,31 +871,48 @@ CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/main.cpp.obj: C:/Users/Nabil/Desktop
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/version.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/cctype \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/cerrno \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/charconv \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/chrono \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/clocale \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/compare \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/concepts \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/cstddef \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/cstdint \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/cstdio \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/cstdlib \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ctime \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/cwchar \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/cwctype \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/debug/assertions.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/debug/debug.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/exception \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/aligned_buffer.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/alloc_traits.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/atomicity.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/concurrence.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/numeric_traits.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/string_conversions.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/type_traits.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/format \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/functional \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/initializer_list \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/iomanip \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ios \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/iosfwd \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/iostream \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/istream \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/limits \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/locale \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/new \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/numbers \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/optional \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ostream \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/pstl/pstl_config.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ratio \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/span \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/sstream \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/stdexcept \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/stdlib.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/streambuf \
@@ -873,6 +922,8 @@ CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/main.cpp.obj: C:/Users/Nabil/Desktop
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/tuple \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/type_traits \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/typeinfo \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/unordered_map \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/variant \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/vector \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -884,10 +935,13 @@ CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/main.cpp.obj: C:/Users/Nabil/Desktop
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h \
   C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/time_members.h \
   C:/Users/Nabil/Documents/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
   C:/Users/Nabil/Documents/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
   C:/Users/Nabil/Documents/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h \
   C:/Users/Nabil/Documents/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
   C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/_mingw.h \
   C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
@@ -918,6 +972,7 @@ CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/main.cpp.obj: C:/Users/Nabil/Desktop
   C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
   C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/signal.h \
   C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/stddef.h \
+  C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/stdint.h \
   C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/stdio.h \
   C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/stdlib.h \
   C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
@@ -927,6 +982,7 @@ CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/main.cpp.obj: C:/Users/Nabil/Desktop
   C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/ScopedTimer.hpp \
   C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/tri.hpp
 
 CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/tri.cpp.obj: C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/tri.cpp \
@@ -1099,13 +1155,47 @@ CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/tri.cpp.obj: C:/Users/Nabil/Desktop/
   C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/tri.hpp
 
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/time_members.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ratio:
+
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/pstl/glue_algorithm_defs.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/pstl/execution_defs.h:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/optional:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/concurrence.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/aligned_buffer.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/unordered_map.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/unicode.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/unicode-data.h:
+
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_tempbuf.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ranges_algo.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/quoted_string.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/shared_ptr_base.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/hashtable_policy.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/hashtable.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/span:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/enable_special_members.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/chrono.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/array:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/algorithm:
 
@@ -1115,6 +1205,8 @@ C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD2/utils.cpp:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/sstream:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/align.h:
+
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/vector.tcc:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_uninitialized.h:
@@ -1122,6 +1214,8 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_uninitialized.h
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_bvector.h:
 
 C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD2/npi.cpp:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/parse_numbers.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/tr1/special_function_util.h:
 
@@ -1132,6 +1226,8 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc:
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/locale:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/sstream.tcc:
 
@@ -1144,6 +1240,8 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/tr1/gamma.tcc:
 C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/tri.cpp:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/std_function.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc:
 
@@ -1165,11 +1263,15 @@ C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/functional:
+
 C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/stdlib.h:
 
 C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD2/npi.hpp:
 
 C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/stddef.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/unique_ptr.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
 
@@ -1179,6 +1281,8 @@ C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/stdio.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_conv.h:
+
 C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/time.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h:
@@ -1186,6 +1290,8 @@ C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h
 C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/pthread_signal.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/shared_ptr.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/pthread_compat.h:
 
@@ -1217,6 +1323,8 @@ C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/std_abs.h:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/codecvt.h:
+
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ranges_cmp.h:
 
 C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD2/npi_token.cpp:
@@ -1229,7 +1337,13 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/exception:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/streambuf_iterator.h:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/cstdint:
+
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ranges_util.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/format:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/allocated_ptr.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/memory_resource.h:
 
@@ -1248,6 +1362,8 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ostream.tcc:
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/exception.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ostream:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/node_handle.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_function.h:
 
@@ -1293,6 +1409,8 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/allocator.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ranges_algobase.h:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/erase_if.h:
+
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/specfun.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/initializer_list:
@@ -1301,9 +1419,13 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/iostream:
 
 C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD1/fraction.cpp:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/unordered_map:
+
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/char_traits.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/exception_ptr.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/stdint.h:
 
 C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD1/fraction.hpp:
 
@@ -1329,6 +1451,8 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/memoryfwd.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/functional_hash.h:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/messages_members.h:
+
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/ranges_base.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/utility.h:
@@ -1348,6 +1472,8 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/hash_bytes.h:
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/istream.tcc:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/requires_hosted.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_classes.tcc:
 
@@ -1371,6 +1497,8 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/compare:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/stl_algo.h:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/locale_facets_nonio.tcc:
+
 C:/Users/Nabil/Documents/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/concepts:
@@ -1385,6 +1513,8 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/cwctype:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/alloc_traits.h:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/chrono:
+
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/algorithmfwd.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/cstdio:
@@ -1393,11 +1523,15 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/string_view:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/debug/assertions.h:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/iomanip:
+
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ext/atomicity.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/charconv.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
+
+C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/ScopedTimer.hpp:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ios:
 
@@ -1449,9 +1583,13 @@ C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/type_traits:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/variant:
+
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/invoke.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/charconv:
 
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
 
@@ -1469,11 +1607,15 @@ C:/Users/Nabil/Documents/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/l
 
 C:/Users/Nabil/Documents/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h:
 
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/ctime:
+
 C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/_mingw.h:
+
+C:/Users/Nabil/Documents/gcc/mingw64/include/c++/14.2.0/bits/chrono_io.h:
 
 C:/Users/Nabil/Documents/gcc/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
 
