@@ -40,7 +40,7 @@ void selection_sort(std::vector<int> &vec) {
     std::cout << "Nb iterations tri par selection : " << iterations << std::endl;
 }
 
-// Quick Sort Partition
+// Tr
 size_t quick_sort_partition(std::vector<float> &vec, size_t left, size_t right, size_t const pivot, int &iterations) {
     float pivot_value = vec[pivot];
     std::swap(vec[pivot], vec[right]);
