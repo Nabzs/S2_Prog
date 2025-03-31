@@ -14,6 +14,9 @@ set(OLD_GLOB
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD2/utils.cpp"
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/main.cpp"
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/tri.cpp"
+  "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/main.cpp"
+  "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/str.cpp"
+  "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/vector_utils.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -26,6 +29,7 @@ set(OLD_GLOB
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD1/main.cpp"
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD2/main.cpp"
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/main.cpp"
+  "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

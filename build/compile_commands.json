@@ -43,6 +43,18 @@
 },
 {
   "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD1_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD1_S2_Prog.dir\\TDS\\src\\TD4\\str.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD4\\str.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/str.cpp",
+  "output": "CMakeFiles/main_TD1_S2_Prog.dir/TDS/src/TD4/str.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD1_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD1_S2_Prog.dir\\TDS\\src\\TD4\\vector_utils.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD4\\vector_utils.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/vector_utils.cpp",
+  "output": "CMakeFiles/main_TD1_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
   "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD2_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD2_S2_Prog.dir\\TDS\\src\\TD2\\main.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD2\\main.cpp",
   "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD2/main.cpp",
   "output": "CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD2/main.cpp.obj"
@@ -85,6 +97,18 @@
 },
 {
   "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD2_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD2_S2_Prog.dir\\TDS\\src\\TD4\\str.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD4\\str.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/str.cpp",
+  "output": "CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD2_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD2_S2_Prog.dir\\TDS\\src\\TD4\\vector_utils.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD4\\vector_utils.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/vector_utils.cpp",
+  "output": "CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
   "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD3_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD3_S2_Prog.dir\\TDS\\src\\TD3\\main.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD3\\main.cpp",
   "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/main.cpp",
   "output": "CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/main.cpp.obj"
@@ -124,5 +148,71 @@
   "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD3_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD3_S2_Prog.dir\\TDS\\src\\TD3\\tri.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD3\\tri.cpp",
   "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/tri.cpp",
   "output": "CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD3/tri.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD3_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD3_S2_Prog.dir\\TDS\\src\\TD4\\str.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD4\\str.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/str.cpp",
+  "output": "CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD4/str.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD3_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD3_S2_Prog.dir\\TDS\\src\\TD4\\vector_utils.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD4\\vector_utils.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/vector_utils.cpp",
+  "output": "CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD4_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD4_S2_Prog.dir\\TDS\\src\\TD4\\main.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD4\\main.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/main.cpp",
+  "output": "CMakeFiles/main_TD4_S2_Prog.dir/TDS/src/TD4/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD4_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD4_S2_Prog.dir\\TDS\\src\\TD1\\fraction.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD1\\fraction.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD1/fraction.cpp",
+  "output": "CMakeFiles/main_TD4_S2_Prog.dir/TDS/src/TD1/fraction.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD4_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD4_S2_Prog.dir\\TDS\\src\\TD1\\utils.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD1\\utils.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD1/utils.cpp",
+  "output": "CMakeFiles/main_TD4_S2_Prog.dir/TDS/src/TD1/utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD4_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD4_S2_Prog.dir\\TDS\\src\\TD2\\npi.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD2\\npi.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD2/npi.cpp",
+  "output": "CMakeFiles/main_TD4_S2_Prog.dir/TDS/src/TD2/npi.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD4_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD4_S2_Prog.dir\\TDS\\src\\TD2\\npi_token.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD2\\npi_token.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD2/npi_token.cpp",
+  "output": "CMakeFiles/main_TD4_S2_Prog.dir/TDS/src/TD2/npi_token.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD4_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD4_S2_Prog.dir\\TDS\\src\\TD2\\utils.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD2\\utils.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD2/utils.cpp",
+  "output": "CMakeFiles/main_TD4_S2_Prog.dir/TDS/src/TD2/utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD4_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD4_S2_Prog.dir\\TDS\\src\\TD3\\tri.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD3\\tri.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD3/tri.cpp",
+  "output": "CMakeFiles/main_TD4_S2_Prog.dir/TDS/src/TD3/tri.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD4_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD4_S2_Prog.dir\\TDS\\src\\TD4\\str.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD4\\str.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/str.cpp",
+  "output": "CMakeFiles/main_TD4_S2_Prog.dir/TDS/src/TD4/str.cpp.obj"
+},
+{
+  "directory": "C:/Users/Nabil/Desktop/S2_Prog/build",
+  "command": "C:\\Users\\Nabil\\Documents\\gcc\\mingw64\\bin\\g++.exe  @CMakeFiles/main_TD4_S2_Prog.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles\\main_TD4_S2_Prog.dir\\TDS\\src\\TD4\\vector_utils.cpp.obj -c C:\\Users\\Nabil\\Desktop\\S2_Prog\\TDS\\src\\TD4\\vector_utils.cpp",
+  "file": "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/vector_utils.cpp",
+  "output": "CMakeFiles/main_TD4_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj"
 }
 ]

@@ -173,6 +173,36 @@ CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD3/tri.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD3/tri.cpp.s"
 	C:\Users\Nabil\Documents\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Nabil\Desktop\S2_Prog\TDS\src\TD3\tri.cpp -o CMakeFiles\main_TD2_S2_Prog.dir\TDS\src\TD3\tri.cpp.s
 
+CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.obj: CMakeFiles/main_TD2_S2_Prog.dir/flags.make
+CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.obj: CMakeFiles/main_TD2_S2_Prog.dir/includes_CXX.rsp
+CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.obj: C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/str.cpp
+CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.obj: CMakeFiles/main_TD2_S2_Prog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Nabil\Desktop\S2_Prog\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.obj"
+	C:\Users\Nabil\Documents\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.obj -MF CMakeFiles\main_TD2_S2_Prog.dir\TDS\src\TD4\str.cpp.obj.d -o CMakeFiles\main_TD2_S2_Prog.dir\TDS\src\TD4\str.cpp.obj -c C:\Users\Nabil\Desktop\S2_Prog\TDS\src\TD4\str.cpp
+
+CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.i"
+	C:\Users\Nabil\Documents\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Nabil\Desktop\S2_Prog\TDS\src\TD4\str.cpp > CMakeFiles\main_TD2_S2_Prog.dir\TDS\src\TD4\str.cpp.i
+
+CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.s"
+	C:\Users\Nabil\Documents\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Nabil\Desktop\S2_Prog\TDS\src\TD4\str.cpp -o CMakeFiles\main_TD2_S2_Prog.dir\TDS\src\TD4\str.cpp.s
+
+CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj: CMakeFiles/main_TD2_S2_Prog.dir/flags.make
+CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj: CMakeFiles/main_TD2_S2_Prog.dir/includes_CXX.rsp
+CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj: C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/vector_utils.cpp
+CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj: CMakeFiles/main_TD2_S2_Prog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Nabil\Desktop\S2_Prog\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj"
+	C:\Users\Nabil\Documents\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj -MF CMakeFiles\main_TD2_S2_Prog.dir\TDS\src\TD4\vector_utils.cpp.obj.d -o CMakeFiles\main_TD2_S2_Prog.dir\TDS\src\TD4\vector_utils.cpp.obj -c C:\Users\Nabil\Desktop\S2_Prog\TDS\src\TD4\vector_utils.cpp
+
+CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.i"
+	C:\Users\Nabil\Documents\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Nabil\Desktop\S2_Prog\TDS\src\TD4\vector_utils.cpp > CMakeFiles\main_TD2_S2_Prog.dir\TDS\src\TD4\vector_utils.cpp.i
+
+CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.s"
+	C:\Users\Nabil\Documents\gcc\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Nabil\Desktop\S2_Prog\TDS\src\TD4\vector_utils.cpp -o CMakeFiles\main_TD2_S2_Prog.dir\TDS\src\TD4\vector_utils.cpp.s
+
 # Object files for target main_TD2_S2_Prog
 main_TD2_S2_Prog_OBJECTS = \
 "CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD2/main.cpp.obj" \
@@ -181,7 +211,9 @@ main_TD2_S2_Prog_OBJECTS = \
 "CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD2/npi.cpp.obj" \
 "CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD2/npi_token.cpp.obj" \
 "CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD2/utils.cpp.obj" \
-"CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD3/tri.cpp.obj"
+"CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD3/tri.cpp.obj" \
+"CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.obj" \
+"CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj"
 
 # External object files for target main_TD2_S2_Prog
 main_TD2_S2_Prog_EXTERNAL_OBJECTS =
@@ -193,11 +225,13 @@ C:/Users/Nabil/Desktop/S2_Prog/bin/Debug/main_TD2_S2_Prog.exe: CMakeFiles/main_T
 C:/Users/Nabil/Desktop/S2_Prog/bin/Debug/main_TD2_S2_Prog.exe: CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD2/npi_token.cpp.obj
 C:/Users/Nabil/Desktop/S2_Prog/bin/Debug/main_TD2_S2_Prog.exe: CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD2/utils.cpp.obj
 C:/Users/Nabil/Desktop/S2_Prog/bin/Debug/main_TD2_S2_Prog.exe: CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD3/tri.cpp.obj
+C:/Users/Nabil/Desktop/S2_Prog/bin/Debug/main_TD2_S2_Prog.exe: CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/str.cpp.obj
+C:/Users/Nabil/Desktop/S2_Prog/bin/Debug/main_TD2_S2_Prog.exe: CMakeFiles/main_TD2_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj
 C:/Users/Nabil/Desktop/S2_Prog/bin/Debug/main_TD2_S2_Prog.exe: CMakeFiles/main_TD2_S2_Prog.dir/build.make
 C:/Users/Nabil/Desktop/S2_Prog/bin/Debug/main_TD2_S2_Prog.exe: CMakeFiles/main_TD2_S2_Prog.dir/linkLibs.rsp
 C:/Users/Nabil/Desktop/S2_Prog/bin/Debug/main_TD2_S2_Prog.exe: CMakeFiles/main_TD2_S2_Prog.dir/objects1.rsp
 C:/Users/Nabil/Desktop/S2_Prog/bin/Debug/main_TD2_S2_Prog.exe: CMakeFiles/main_TD2_S2_Prog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Nabil\Desktop\S2_Prog\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable C:\Users\Nabil\Desktop\S2_Prog\bin\Debug\main_TD2_S2_Prog.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Nabil\Desktop\S2_Prog\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable C:\Users\Nabil\Desktop\S2_Prog\bin\Debug\main_TD2_S2_Prog.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main_TD2_S2_Prog.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

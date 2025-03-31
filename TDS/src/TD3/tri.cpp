@@ -1,6 +1,7 @@
 #include "tri.hpp"
 #include <algorithm>
 #include <iostream>
+#include <vector>
 
 // Bubble Sort
 void bubble_sort(std::vector<int> &vec) {
@@ -40,7 +41,7 @@ void selection_sort(std::vector<int> &vec) {
     std::cout << "Nb iterations tri par selection : " << iterations << std::endl;
 }
 
-// Tr
+// Quick Sort Partition
 size_t quick_sort_partition(std::vector<float> &vec, size_t left, size_t right, size_t const pivot, int &iterations) {
     float pivot_value = vec[pivot];
     std::swap(vec[pivot], vec[right]);
@@ -116,4 +117,24 @@ void merge_sort(std::vector<float> &vec) {
         merge_sort(vec, 0, vec.size() - 1, iterations);
     }
     std::cout << "Nb iterations Tri fusion : " << iterations << std::endl;
+}
+
+// Binary Search (Dichotomie)
+int search(const std::vector<int> &vec, int value) {
+    size_t left = 0;
+    size_t right = vec.size() - 1;
+
+    while (left <= right) {
+        size_t middle = left + (right - left) / 2;
+
+        if (vec[middle] == value) {
+            return middle; // Value found
+        } else if (vec[middle] < value) {
+            left = middle + 1; // Search in the right half
+        } else {
+            right = middle - 1; // Search in the left half
+        }
+    }
+
+    return -1; // Value not found
 }

@@ -109,5 +109,32 @@ int main() {
     }
     std::cout << std::endl;
 
+
+
+    // Ex4
+    std::cout << "Exercice 4 : " << std::endl;
+    std::cout << std::endl;
+    std::vector<std::vector<int>> test_cases = {
+        {1, 2, 2, 3, 4, 8, 12},
+        {1, 2, 3, 3, 6, 14, 12, 15},
+        {2, 2, 3, 4, 5, 8, 12, 15, 16},
+        {5, 6, 7, 8, 9, 10, 11, 12, 13},
+        {1, 2, 3, 4, 5, 6, 7, 8, 9}
+    };
+
+    std::vector<int> values_to_search = {8, 15, 16, 6, 10};
+
+    for (size_t i = 0; i < test_cases.size(); ++i) {
+        int result = search(test_cases[i], values_to_search[i]);
+        std::cout << "Searching for " << values_to_search[i] << " in test case " << i + 1 << ": ";
+        if (result != -1) {
+            std::cout << "Found at index " << result << std::endl;
+        } else {
+            std::cout << "Not found" << std::endl;
+        }
+    }
+
+    
+
     return 0;
 }

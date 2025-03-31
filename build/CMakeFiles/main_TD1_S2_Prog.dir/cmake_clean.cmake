@@ -16,6 +16,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/main_TD1_S2_Prog.dir/TDS/src/TD2/utils.cpp.obj.d"
   "CMakeFiles/main_TD1_S2_Prog.dir/TDS/src/TD3/tri.cpp.obj"
   "CMakeFiles/main_TD1_S2_Prog.dir/TDS/src/TD3/tri.cpp.obj.d"
+  "CMakeFiles/main_TD1_S2_Prog.dir/TDS/src/TD4/str.cpp.obj"
+  "CMakeFiles/main_TD1_S2_Prog.dir/TDS/src/TD4/str.cpp.obj.d"
+  "CMakeFiles/main_TD1_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj"
+  "CMakeFiles/main_TD1_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj.d"
   "libmain_TD1_S2_Prog.dll.a"
 )
 
