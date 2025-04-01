@@ -2,6 +2,8 @@
 #include "utils.hpp"
 
 #include <iostream>
+#include <cmath> // Pour std::abs, std::ceil, std::floor, std::round
+
 
 void Fraction::display()
 {
@@ -145,4 +147,57 @@ float Fraction::to_float() const {
 
 Fraction::operator float() const {
     return to_float();
+}
+
+// Aller plus loin
+Fraction Fraction::abs() const {
+    return Fraction{std::abs(numerator), std::abs(denominator)};
+}
+
+Fraction Fraction::ceil() const {
+    int result = static_cast<int>(std::ceil(to_float()));
+    return Fraction{result, 1};
+}
+
+Fraction Fraction::floor() const {
+    int result = static_cast<int>(std::floor(to_float()));
+    return Fraction{result, 1};
+}
+
+Fraction Fraction::round() const {
+    int result = static_cast<int>(std::round(to_float()));
+    return Fraction{result, 1};
+}
+
+// 
+Fraction operator+(Fraction const& f, int const i) {
+    return f + Fraction{i, 1};
+}
+
+Fraction operator+(int const i, Fraction const& f) {
+    return Fraction{i, 1} + f;
+}
+
+Fraction operator-(Fraction const& f, int const i) {
+    return f - Fraction{i, 1};
+}
+
+Fraction operator-(int const i, Fraction const& f) {
+    return Fraction{i, 1} - f;
+}
+
+Fraction operator*(Fraction const& f, int const i) {
+    return f * Fraction{i, 1};
+}
+
+Fraction operator*(int const i, Fraction const& f) {
+    return Fraction{i, 1} * f;
+}
+
+Fraction operator/(Fraction const& f, int const i) {
+    return f / Fraction{i, 1};
+}
+
+Fraction operator/(int const i, Fraction const& f) {
+    return Fraction{i, 1} / f;
 }

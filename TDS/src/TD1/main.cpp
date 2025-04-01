@@ -71,5 +71,25 @@ int main()
     std::cout << "5/3 = " << static_cast<float>(Fraction{5, 3}) << std::endl;
 
 
+
+    std::cout << std::endl << "Aller plus loin" << std::endl;
+    int i = 2;
+
+    Fraction f2_new = f1 + i;
+    Fraction f3 = i - f1;
+
+    std::cout << "f1 + i = " << f2_new << "\n";
+    std::cout << "i - f1 = " << f3 << "\n";
+
+    Fraction f4 = f1.abs();
+    Fraction f5 = f1.ceil();
+    Fraction f6 = f1.floor();
+    Fraction f7 = f1.round();
+
+    std::cout << "Valeur absolue de f1: " << f4 << "\n";
+    std::cout << "Arrondi superieur de f1: " << f5 << "\n";
+    std::cout << "Arrondi inferieur de f1: " << f6 << "\n";
+    std::cout << "arrondi de f1: " << f7 << "\n";
+
     return 0;
 }
