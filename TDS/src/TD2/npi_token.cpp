@@ -3,7 +3,16 @@
 #include <sstream>
 #include <cctype>
 #include <vector>
+#include <stack>
+#include "utils.hpp"
 
+// Function to check if a string represents a floating-point number
+bool is_floating(const std::string& str) {
+    std::istringstream iss(str);
+    float f;
+    iss >> std::noskipws >> f; // noskipws ensures no extra characters are present
+    return iss.eof() && !iss.fail();
+}
 
 // Fonction pour créer un token à partir d'un opérande
 Token make_token(float value) {
@@ -15,38 +24,63 @@ Token make_token(Operator op) {
     return Token{TokenType::OPERATOR, 0.0f, op}; // La valeur n'est pas utilisée ici
 }
 
-// Fonction pour vérifier si une chaîne représente un nombre flottant
-bool is_floating(const std::string& s) {
-    bool dot_found = false;
-    for (char ch : s) {
-        if (ch == '.') {
-            if (dot_found) return false;
-            dot_found = true;
-        } else if (!std::isdigit(ch)) {
-            return false;
-        }
+// Fonction pour obtenir la priorité d'un opérateur
+int operator_precedence(Operator const op) {
+    switch (op) {
+        case Operator::ADD:
+        case Operator::SUB: return 1;
+        case Operator::MUL:
+        case Operator::DIV: return 2;
+        case Operator::OPEN_PAREN:
+        case Operator::CLOSE_PAREN: return 0;
+        default: throw std::invalid_argument("Operateur invalide");
     }
-    return true;
 }
 
-std::vector<Token> tokenize(const std::vector<std::string>& words) {
-    std::vector<Token> tokens;
+// Fonction pour convertir une expression infixe en NPI
+std::vector<Token> infix_to_npi_tokens(const std::string& expression) {
+    std::vector<std::string> words = split_string(expression);
+    std::vector<Token> output;
+    std::stack<Token> operators;
 
     for (const auto& word : words) {
         if (is_floating(word)) {
-            tokens.push_back(make_token(std::stof(word)));  // Convertir en float et ajouter un opérande
-        } else if (word == "+") {
-            tokens.push_back(make_token(Operator::ADD));  // opérateur +
-        } else if (word == "-") {
-            tokens.push_back(make_token(Operator::SUB));  // opérateur -
-        } else if (word == "*") {
-            tokens.push_back(make_token(Operator::MUL));  // opérateur *
-        } else if (word == "/") {
-            tokens.push_back(make_token(Operator::DIV));  // opérateur /
+            output.push_back(make_token(std::stof(word)));
+        } else if (word == "(") {
+            operators.push(make_token(Operator::OPEN_PAREN));
+        } else if (word == ")") {
+            while (!operators.empty() && operators.top().op != Operator::OPEN_PAREN) {
+                output.push_back(operators.top());
+                operators.pop();
+            }
+            if (operators.empty() || operators.top().op != Operator::OPEN_PAREN) {
+                throw std::invalid_argument("Parentheses non correspondantes");
+            }
+            operators.pop();
         } else {
-            throw std::invalid_argument("Operateur ou operande invalide");
+            Operator op;
+            if (word == "+") op = Operator::ADD;
+            else if (word == "-") op = Operator::SUB;
+            else if (word == "*") op = Operator::MUL;
+            else if (word == "/") op = Operator::DIV;
+            else throw std::invalid_argument("Operateur invalide");
+
+            while (!operators.empty() &&
+                   operator_precedence(operators.top().op) >= operator_precedence(op)) {
+                output.push_back(operators.top());
+                operators.pop();
+            }
+            operators.push(make_token(op));
         }
     }
 
-    return tokens;
+    while (!operators.empty()) {
+        if (operators.top().op == Operator::OPEN_PAREN) {
+            throw std::invalid_argument("Parentheses non correspondantes");
+        }
+        output.push_back(operators.top());
+        operators.pop();
+    }
+
+    return output;
 }

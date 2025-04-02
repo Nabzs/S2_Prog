@@ -1,7 +1,6 @@
 #include "npi.hpp"
 #include <stdexcept>
 #include <vector>
-#include <string>
 #include "npi_token.hpp"
 
 float npi_evaluate(const std::vector<Token>& tokens) {
