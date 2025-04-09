@@ -22,6 +22,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD4/vector_utils.cpp.obj.d"
   "CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD5/hache.cpp.obj"
   "CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD5/hache.cpp.obj.d"
+  "CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD6/node.cpp.obj"
+  "CMakeFiles/main_TD3_S2_Prog.dir/TDS/src/TD6/node.cpp.obj.d"
   "libmain_TD3_S2_Prog.dll.a"
 )
 
