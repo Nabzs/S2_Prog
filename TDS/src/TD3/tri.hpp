@@ -17,4 +17,7 @@ void merge_sort(std::vector<float> &vec);
 
 int search(const std::vector<int> &vec, int value);
 
+
+// Aller plsu loin
+void counting_sort(std::vector<int> &vec, int const max);
 #endif 

@@ -6,17 +6,16 @@
 #include <stack>
 #include "utils.hpp"
 
-// Function to check if a string represents a floating-point number
 bool is_floating(const std::string& str) {
     std::istringstream iss(str);
     float f;
-    iss >> std::noskipws >> f; // noskipws ensures no extra characters are present
+    iss >> std::noskipws >> f; 
     return iss.eof() && !iss.fail();
 }
 
 // Fonction pour créer un token à partir d'un opérande
 Token make_token(float value) {
-    return Token{TokenType::OPERAND, value, Operator::ADD}; // L'opérateur par défaut n'est pas utilisé ici
+    return Token{TokenType::OPERAND, value, Operator::ADD}; 
 }
 
 // Fonction pour créer un token à partir d'un opérateur

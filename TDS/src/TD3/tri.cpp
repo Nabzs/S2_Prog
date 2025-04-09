@@ -138,3 +138,23 @@ int search(const std::vector<int> &vec, int value) {
 
     return -1; // Value not found
 }
+
+// Counting Sort
+void counting_sort(std::vector<int> &vec, int const max) {
+    // Créer un tableau de comptage initialisé à 0
+    std::vector<int> count(max + 1, 0);
+
+    // Compter les occu de chaque élément
+    for (int num : vec) {
+        count[num]++;
+    }
+
+    // Reconstruire le tableau trié
+    size_t index = 0;
+    for (int i = 0; i <= max; ++i) {
+        while (count[i] > 0) {
+            vec[index++] = i;
+            count[i]--;
+        }
+    }
+}

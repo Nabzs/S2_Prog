@@ -135,6 +135,21 @@ int main() {
     }
 
     
+    std::cout << "Counting Sort: " << std::endl;
+    std::cout << std::endl;
+
+    std::vector<int> vec_counting = random_tabl(100, 50); // Générer un tableau aléatoire avec des valeurs entre 0 et 50
+    std::cout << "Tableau avant Counting Sort : ";
+    print_vector(vec_counting);
+
+    {
+        ScopedTimer timer("Counting Sort");
+        counting_sort(vec_counting, 50); // 50 est la valeur maximale possible
+    }
+    std::cout << std::endl;
+    std::cout << "Tableau apres Counting Sort : ";
+    print_vector(vec_counting);
+    std::cout << std::endl;
 
     return 0;
 }
