@@ -19,8 +19,12 @@ set(OLD_GLOB
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/vector_utils.cpp"
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD5/hache.cpp"
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD5/main.cpp"
+  "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD6/binaryTree.cpp"
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD6/main.cpp"
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD6/node.cpp"
+  "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD6/smartNode.cpp"
+  "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD7/graph.cpp"
+  "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD7/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -36,6 +40,7 @@ set(OLD_GLOB
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD4/main.cpp"
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD5/main.cpp"
   "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD6/main.cpp"
+  "C:/Users/Nabil/Desktop/S2_Prog/TDS/src/TD7/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
